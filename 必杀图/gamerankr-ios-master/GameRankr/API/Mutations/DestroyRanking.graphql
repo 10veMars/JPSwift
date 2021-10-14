@@ -1,0 +1,8 @@
+mutation DestroyRanking($portId: ID!) {
+    ranking : destroy_ranking(port_id: $portId) {
+        id
+        game {
+            id
+        }
+    }
+}

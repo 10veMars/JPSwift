@@ -1,0 +1,16 @@
+query Shelf($id: ID!, $after: String) {
+    shelf(id: $id) {
+        rankings(first: 30, after: $after) {
+            edges {
+                ranking : node {
+                    ...RankingWithGame
+                }
+            }
+            pageInfo {
+                endCursor
+                hasNextPage
+            }
+        }
+    }
+}
+

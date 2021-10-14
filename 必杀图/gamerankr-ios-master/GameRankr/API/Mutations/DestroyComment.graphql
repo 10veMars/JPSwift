@@ -1,0 +1,5 @@
+mutation DestroyComment($id: ID!) {
+    comment : destroy_comment(id: $id) {
+        ...CommentBasic
+    }
+}

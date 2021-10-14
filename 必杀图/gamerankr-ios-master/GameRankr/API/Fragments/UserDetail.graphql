@@ -1,0 +1,17 @@
+fragment UserDetail on User {
+    ...UserBasic
+    rankings(first: 20) {
+        edges {
+            ranking : node {
+                ...RankingWithGame
+            }
+        }
+        pageInfo {
+            endCursor
+            hasNextPage
+        }
+    }
+    shelves {
+        ...ShelfBasic
+    }
+}

@@ -1,0 +1,23 @@
+query Game($id: ID!) {
+    game(id: $id) {
+        ...GameBasic
+        ports {
+            medium_image_url
+            description
+        }
+        rankings(first: 30) {
+            edges {
+                node {
+                    ...RankingWithUser
+                }
+            }
+            pageInfo {
+                endCursor
+                hasNextPage
+            }
+        }
+        friend_rankings {
+            ...RankingWithUser
+        }
+    }
+}

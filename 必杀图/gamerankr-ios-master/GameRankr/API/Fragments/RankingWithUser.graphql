@@ -1,0 +1,6 @@
+fragment RankingWithUser on Ranking {
+    ...RankingBasic
+    user {
+        ...UserBasic
+    }
+}

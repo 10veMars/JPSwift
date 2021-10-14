@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GoBots.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>7D094297FCCA79CCEB19985FB5ED4B57498266BB</string>
+				<key>dateExpires</key>
+				<string>2018/12/1</string>
+				<key>type</key>
+				<string>iOS Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>4T56MM6MZT.com.wi4446.qnmjls</string>
+				<key>aps-environment</key>
+				<string>development</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>4T56MM6MZT</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>GoBots.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>e39397b2-d85f-4cfe-a4a1-0844ec12c64c</string>
+				<key>name</key>
+				<string>match Development com.wi4446.qnmjls</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>4T56MM6MZT</string>
+				<key>name</key>
+				<string>Zhi Dao</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

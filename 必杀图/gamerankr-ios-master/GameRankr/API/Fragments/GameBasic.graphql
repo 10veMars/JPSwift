@@ -1,0 +1,13 @@
+fragment GameBasic on Game {
+    id
+    title
+    url
+    ports {
+        id
+        platform {
+            id
+            name
+        }
+        small_image_url
+    }
+}
